@@ -1,0 +1,14 @@
+import { Dependency } from "../types/Dependency";
+
+abstract class Base {
+  abstract type: Dependency;
+  abstract name: string;
+  load: boolean = true;
+  abstract init(): void;
+  abstract getDependencies(): Dependency[];
+  setLoad(load: boolean): void {
+    this.load = load;
+  }
+}
+
+export default Base;
