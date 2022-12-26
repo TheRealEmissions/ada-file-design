@@ -1,3 +1,3 @@
-import HeadFile from "./HeadFile";
+import Base from "./Base";
 
-export { HeadFile };
+export { Base as HeadFile };
