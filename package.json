@@ -1,0 +1,20 @@
+{
+  "name": "ts-modular-bot-file-design",
+  "version": "1.0.0",
+  "description": "Abstract classes for TS Modular Bot Series",
+  "main": "Files.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealEmissions/ts-modular-bot-file-design.git"
+  },
+  "author": "Emissions#2565",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRealEmissions/ts-modular-bot-file-design/issues"
+  },
+  "homepage": "https://github.com/TheRealEmissions/ts-modular-bot-file-design#readme",
+  "dependencies": {
+    "ts-modular-bot-types": "^1.0.0"
+  }
+}

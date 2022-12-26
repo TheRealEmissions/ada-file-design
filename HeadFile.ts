@@ -1,4 +1,4 @@
-import { Dependency } from "../types/Dependency";
+import { Dependency } from "ts-modular-bot-types";
 
 abstract class Base {
   abstract type: Dependency;
