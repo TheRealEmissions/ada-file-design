@@ -2,7 +2,7 @@
   "name": "ts-modular-bot-file-design",
   "version": "1.0.0",
   "description": "Abstract classes for TS Modular Bot Series",
-  "main": "Files.ts",
+  "main": "out/Files.js",
   "scripts": {},
   "repository": {
     "type": "git",
