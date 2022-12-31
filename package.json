@@ -17,5 +17,6 @@
   "dependencies": {
     "ts-modular-bot-types": "github:TheRealEmissions/ts-modular-bot-types"
   },
-  "types": "out/types/Files.d.ts"
+  "types": "out/types/Files.d.ts",
+  "type": "module"
 }
