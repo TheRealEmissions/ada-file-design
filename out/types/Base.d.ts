@@ -6,5 +6,6 @@ declare abstract class Base {
     abstract init(): void;
     abstract getDependencies(): Dependency[];
     setLoad(load: boolean): void;
+    getPrototype(): typeof Base;
 }
 export default Base;

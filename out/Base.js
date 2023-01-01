@@ -3,5 +3,8 @@ class Base {
     setLoad(load) {
         this.load = load;
     }
+    getPrototype() {
+        return Base;
+    }
 }
 export default Base;
