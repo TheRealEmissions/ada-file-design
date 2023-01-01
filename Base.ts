@@ -9,6 +9,9 @@ abstract class Base {
   setLoad(load: boolean): void {
     this.load = load;
   }
+  getPrototype() {
+    return Base;
+  }
 }
 
 export default Base;
