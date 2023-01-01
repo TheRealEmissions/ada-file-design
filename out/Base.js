@@ -4,7 +4,7 @@ class Base {
         this.load = load;
     }
     getPrototype() {
-        return Base;
+        return Base.prototype;
     }
 }
 export default Base;
