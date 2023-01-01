@@ -7,5 +7,6 @@ declare abstract class Base {
     abstract getDependencies(): Dependency[];
     setLoad(load: boolean): void;
     getPrototype(): Base;
+    vars: [import("ts-modular-bot-file-design/out/types/Base").default, string][];
 }
 export default Base;

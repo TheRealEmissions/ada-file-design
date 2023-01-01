@@ -12,7 +12,7 @@ abstract class Base {
   getPrototype() {
     return Base.prototype;
   }
-  vars: [Dependency, string][] = Dependencies.vars;
+  vars = Dependencies.vars;
 }
 
 export default Base;
