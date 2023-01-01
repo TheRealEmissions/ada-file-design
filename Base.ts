@@ -1,4 +1,4 @@
-import { Dependency } from "ts-modular-bot-types";
+import { Dependency, Dependencies } from "ts-modular-bot-types";
 
 abstract class Base {
   abstract type: Dependency;
@@ -12,6 +12,7 @@ abstract class Base {
   getPrototype() {
     return Base.prototype;
   }
+  vars: [Dependency, string][] = Dependencies.vars;
 }
 
 export default Base;
