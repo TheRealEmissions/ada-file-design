@@ -4,7 +4,7 @@ abstract class Base {
   abstract type: Dependency;
   abstract name: string;
   load: boolean = true;
-  abstract init(): void;
+  abstract init(): Promise<void>;
   abstract getDependencies(): Dependency[];
   setLoad(load: boolean): void {
     this.load = load;
