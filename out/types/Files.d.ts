@@ -1,2 +1,2 @@
 import Base from "./Base.js";
-export { Base as HeadFile };
+export default Base;
