@@ -1,4 +1,4 @@
-import { Dependency } from "ts-modular-bot-types";
+import { Dependency } from "ada-types";
 declare abstract class Base {
     abstract type: Dependency;
     abstract name: string;

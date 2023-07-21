@@ -1,4 +1,4 @@
-import { Dependencies } from "ts-modular-bot-types";
+import { Dependencies } from "ada-types";
 class Base {
     load = true;
     setLoad(load) {
