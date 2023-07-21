@@ -1,22 +1,22 @@
 {
-  "name": "ts-modular-bot-file-design",
+  "name": "ada-file-design",
   "version": "1.0.0",
-  "description": "Abstract classes for TS Modular Bot Series",
+  "description": "Abstract classes for Ada",
   "main": "out/Files.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheRealEmissions/ts-modular-bot-file-design.git"
+    "url": "git+https://github.com/TheRealEmissions/ada-file-design.git"
   },
   "author": "Emissions#2565",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TheRealEmissions/ts-modular-bot-file-design/issues"
+    "url": "https://github.com/TheRealEmissions/ada-file-design/issues"
   },
-  "homepage": "https://github.com/TheRealEmissions/ts-modular-bot-file-design#readme",
+  "homepage": "https://github.com/TheRealEmissions/ada-file-design#readme",
   "types": "out/types/Files.d.ts",
   "type": "module",
   "dependencies": {
-    "ts-modular-bot-types": "github:therealemissions/ts-modular-bot-types"
+    "ada-types": "github:therealemissions/ada-types"
   }
 }
